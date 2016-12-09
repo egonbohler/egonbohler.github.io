@@ -547,17 +547,17 @@ body {
   transform: translateX(0);
 }
 
-.accordion ul li:nth-child(1) { background-image: url("img/7.jpg"); }
+.accordion ul li:nth-child(1) { background-image: url("/img/7.jpg"); }
 
-.accordion ul li:nth-child(2) { background-image: url("img/2.jpg"); }
+.accordion ul li:nth-child(2) { background-image: url("/img/2.jpg"); }
 
-.accordion ul li:nth-child(3) { background-image: url("img/3.jpg"); }
+.accordion ul li:nth-child(3) { background-image: url("/img/3.jpg"); }
 
-.accordion ul li:nth-child(4) { background-image: url("img/4.jpg"); }
+.accordion ul li:nth-child(4) { background-image: url("/img/4.jpg"); }
 
-.accordion ul li:nth-child(5) { background-image: url("img/5.jpg"); }
+.accordion ul li:nth-child(5) { background-image: url("/img/5.jpg"); }
 
-.accordion ul li:nth-child(6) { background-image: url("img/6.jpg"); }
+.accordion ul li:nth-child(6) { background-image: url("/img/6.jpg"); }
 
 @media screen and (max-width: 600px) {
 

@@ -66,6 +66,10 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.clickable {
+     cursor:pointer;
+  }
+
 header {
   z-index: 0;
 }

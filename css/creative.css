@@ -720,13 +720,13 @@ body {
   font-size: 11px;
 }
 
-.accordion ul:focus li { width: 8%; }
+.accordion ul:active li { width: 8%; }
 
-.accordion ul:focus li:focus { width: 60%; }
+.accordion ul:active li:active { width: 60%; }
 
-.accordion ul:focus li:focus a { background: rgba(0, 0, 0, 0.4); }
+.accordion ul:active li:active a { background: rgba(0, 0, 0, 0.4); }
 
-.accordion ul:focus li:focus a * {
+.accordion ul:active li:active a * {
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);

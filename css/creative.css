@@ -30,6 +30,8 @@ hr.light {
 
 hr.dark {
   border-color: #0E1111;
+  border-color: #0E1111
+;
 }
 
 a {
@@ -44,6 +46,16 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
+a:hover,
+a:focus {
+  color: #c0392b;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Play', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -59,6 +71,8 @@ p {
 
 .bg-dark {
   background-color: #0E1111;
+  background-color: #0E1111
+;
   color: white;
 }
 
@@ -82,6 +96,14 @@ section {
   -webkit-clip-path: polygon(0 0, 2800px 0, 2800px 87%, 0 100%);
   -moz-clip-path: polygon(0 0, 2800px 0, 2800px 87%, 0 100%);
   -o-clip-path: polygon(0 0, 2800px 0, 2800px 87%, 0 100%);
+header{
+  z-index: 0;
+}
+section {
+  padding: 100px 0;
+}
+.slanted {
+  -webkit-clip-path: polygon(0 0, 2800px 0, 2800px 87%, 0 100%);
   clip-path: polygon(0 0, 2800px 0, 2800px 87%, 0 100%);
 }
 
@@ -99,6 +121,12 @@ section {
 .panel-default{
   border-width: 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-clip-path: polygon(0 0, 2800px 0, 2800px 100%, 0 37%);
+  clip-path: polygon(0 0, 2800px 13%, 2800px 100%, 0 100%);
+}
+
+.panel-default{
+  border-color: #ffffff;
 }
 .panel-heading {
   min-height: 16em;
@@ -131,6 +159,8 @@ border-width: 0px;
 /* --------------------------- */
 /* ----Black Footer Styles---- */
 /* --------------------------- */
+
+}
 
 aside {
   padding: 50px 0;
@@ -168,6 +198,10 @@ aside {
   font-size: 12px;
   color: #0E1111;
   stroke: #0E1111;
+  color: #0E1111
+;
+  stroke: #0E1111
+;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -177,12 +211,19 @@ aside {
   font-size: 13px;
   color: rgba(14, 17, 17, 0.7);
   stroke: rgba(14, 17, 17, 0.7);
+;
+  stroke: rgba(14, 17, 17, 0.7);
+;
 
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: #0E1111;
   stroke: #0E1111;
+  color: #0E1111
+;
+  stroke: #0E1111
+;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -200,6 +241,11 @@ aside {
   margin-left: -2.5em;
   height: 105%;
   width: 105%;
+  margin-left: -3.5em;
+  height: 140%;
+  width: 140%;
+
+
 }
 
 #logo-svg:hover{
@@ -207,6 +253,12 @@ aside {
   margin-left: -2.5em;
   height: 105%;
   width: 105%;
+}
+
+  margin-left: -3.5em;
+  height: 140%;
+  width: 140%;
+
 }
 
 @media (min-width: 768px) {
@@ -239,10 +291,12 @@ aside {
     border-color: rgba(255, 255, 255, 0.3)
   }
 
+
   .navbar-default.affix .navbar-header .navbar-brand #logo-svg{
     color: #e74c3c;
     stroke: #e74c3c;
   }
+
 
   .navbar-default.affix .navbar-header .navbar-brand #logo-svg:hover,
   .navbar-default.affix .navbar-header .navbar-brand #logo-svg:focus {
@@ -254,6 +308,11 @@ aside {
   .navbar-default.affix .nav > li > a:focus {
     color: #0E1111;
     stroke: #0E1111;
+    color: #0E1111
+;
+    stroke: #0E1111
+;
+
   }
 
   .navbar-default.affix .nav > li > a:hover,
@@ -263,6 +322,7 @@ aside {
   }
 
 }
+
 
 @media (max-width: 767px) {
  .navbar-default .navbar-header .navbar-brand #logo-svg{
@@ -454,6 +514,9 @@ header .header-content .header-content-inner p {
 
 .btn-default {
   color: #0E1111;
+  color: #0E1111
+;
+
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
@@ -468,6 +531,9 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #0E1111;
+  color: #0E1111
+;
+
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -503,6 +569,9 @@ fieldset[disabled] .btn-default.active {
 .btn-default .badge {
   color: white;
   background-color: #0E1111;
+  background-color: #0E1111
+;
+
 }
 
 .btn-primary {
@@ -541,12 +610,18 @@ fieldset[disabled] .btn-default.active {
   color: white;
   text-shadow: none;
   background: #0E1111;
+  background: #0E1111
+;
+
 }
 
 ::selection {
   color: white;
   text-shadow: none;
   background: #0E1111;
+  background: #0E1111
+;
+
 }
 
 img::selection {
@@ -561,6 +636,9 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #0E1111;
+  webkit-tap-highlight-color: #0E1111
+;
+
 }
 
 .container > a {
@@ -771,4 +849,6 @@ label, input, textarea {
   margin-bottom: 1em;
 }
 
+
+}
 

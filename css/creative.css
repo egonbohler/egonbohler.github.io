@@ -747,7 +747,15 @@ body {
 
 label, input, textarea {
   font-family: 'Play', 'Helvetica Neue', Arial, sans-serif;
+  vertical-align: top;
 }
+
+#name::placeholder {
+  /* todo - figure out how to get this top aligned*/
+  vertical-align: -1em !important;
+}
+
+
 
 /* --------------------------- */
 /* -----------Modals---------- */
@@ -791,5 +799,6 @@ label, input, textarea {
   margin-right: auto;
   margin-bottom: 1em;
 }
+
 
 

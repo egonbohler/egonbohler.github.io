@@ -125,10 +125,10 @@ section {
 }
 
 #panel-three .panel-heading {
-  background-image: url('../img/portfolio/thumbnails/pa_main.png');
+  background-image: url('../img/portfolio/thumbnails/wedding_assets_thumb.jpg');
 }
 
-.panel-body{ 
+.panel-body{
 border-width: 0px;
 }
 
@@ -799,6 +799,3 @@ label, input, textarea {
   margin-right: auto;
   margin-bottom: 1em;
 }
-
-
-
